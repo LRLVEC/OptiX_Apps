@@ -90,6 +90,7 @@ find_package(OptiX74)
 find_package(OptiX75)
 
 add_subdirectory( apps )
+file(MAKE_DIRECTORY "${PROJECT_BINARY_DIR}/bin/")
 message("Copy dlls")
 configure_file(${LOCAL_3RDPARTY}/assimp/bin/assimp-vc143-mt.dll ${PROJECT_BINARY_DIR}/bin COPYONLY)
 configure_file(${LOCAL_3RDPARTY}/glew/bin/Release/x64/glew32.dll ${PROJECT_BINARY_DIR}/bin COPYONLY)

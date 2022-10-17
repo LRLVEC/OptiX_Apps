@@ -199,5 +199,5 @@ assimp_github()
 
 # If the 3rdparty tools should be updated with additional libraries, commenting out these two lines avoids expensive recompilation of existing tools again.
 message("deleting temp folder")
-execute_process(COMMAND ${CMAKE_COMMAND} -E remove_directory "${CMAKE_CURRENT_SOURCE_DIR}/temp")
+# execute_process(COMMAND ${CMAKE_COMMAND} -E remove_directory "${CMAKE_CURRENT_SOURCE_DIR}/temp")
 

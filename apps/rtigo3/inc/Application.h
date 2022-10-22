@@ -187,7 +187,7 @@ private:
   int         m_light;       // "light"
   int         m_miss;        // "miss"
   std::string m_environment; // "envMap"
-  int         m_interop;     // "interop"´// 0 = none all through host, 1 = register texture image, 2 = register pixel buffer
+  int         m_interop;     // "interop" // 0 = none all through host, 1 = register texture image, 2 = register pixel buffer
   bool        m_present;     // "present"
   
   bool        m_presentNext;      // (derived)

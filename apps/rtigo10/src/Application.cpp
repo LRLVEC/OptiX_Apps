@@ -49,8 +49,8 @@ Application::Application(GLFWwindow* window, const Options& options)
 , m_isValid(false)
 , m_guiState(GUI_STATE_NONE)
 , m_isVisibleGUI(true)
-, m_width(512)
-, m_height(512)
+, m_width(1920)
+, m_height(1080)
 , m_mode(0)
 , m_maskDevices(0x00FFFFFF) // A maximum of 24 devices is supported by default. Limited by the UUID arrays 
 , m_sizeArena(64) // Default to 64 MiB Arenas when nothing is specified inside the system description.

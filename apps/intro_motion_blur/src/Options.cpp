@@ -34,8 +34,8 @@
 // public:
 
 Options::Options()
-: m_widthClient(512)
-, m_heightClient(512)
+: m_widthClient(1920)
+, m_heightClient(1080)
 , m_interop(true)
 , m_light(0)
 , m_miss(1)
@@ -163,8 +163,8 @@ void Options::printUsage(std::string const& argv0)
   std::cerr <<
     "App Options:\n"
     "   ? | help | --help    Print this usage message and exit.\n"
-    "  -w | --width <int>    Width of the client window  (512)\n"
-    "  -h | --height <int>   Height of the client window (512)\n"
+    "  -w | --width <int>    Width of the client window  (1920)\n"
+    "  -h | --height <int>   Height of the client window (1080)\n"
     "  -l | --light          Add an area light to the scene.\n"
     "  -m | --miss <0|1|2>   Select the miss shader (0 = black, 1 = white, 2 = HDR texture.\n"
     "  -e | --env <filename> Filename of a spherical HDR texture. Use with --miss 2.\n"

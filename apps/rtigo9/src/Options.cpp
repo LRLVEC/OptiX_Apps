@@ -31,8 +31,8 @@
 #include <iostream>
 
 Options::Options()
-: m_width(512)
-, m_height(512)
+: m_width(1920)
+, m_height(1080)
 , m_mode(0)
 , m_optimize(false)
 {
@@ -169,8 +169,8 @@ void Options::printUsage(const std::string& argv0)
   std::cerr <<
     "App Options:\n"
     "   ? | help | --help       Print this usage message and exit.\n"
-    "  -w | --width <int>       Width of the client window  (512) \n"
-    "  -h | --height <int>      Height of the client window (512)\n"
+    "  -w | --width <int>       Width of the client window  (1920) \n"
+    "  -h | --height <int>      Height of the client window (1080)\n"
     "  -m | --mode <int>        0 = interactive, 1 == benchmark (0)\n"
     "  -o | --optimize          Optimize the assimp scene graph (false)\n"
     "  -s | --system <filename> Filename for system options (empty).\n"

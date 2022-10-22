@@ -49,7 +49,7 @@ peerToPeer 6
 # If the image fits, the surrounding is black.
 # If it's shrunk to fit, the surrounding pixels are dark red.
 
-resolution 512 512
+resolution 1920 1080
 
 # Multi-GPU strategies which use tile-based workload distribution can set the tile size here. 
 # Default is tileSize 8 8 

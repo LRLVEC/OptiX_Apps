@@ -10,3 +10,6 @@
 /3rdparty/downloads
 /3rdparty/glew
 /3rdparty/glfw
+
+/.vs
+CMakeSettings.json
